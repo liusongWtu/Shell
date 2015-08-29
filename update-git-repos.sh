@@ -1,6 +1,6 @@
 #!/bin/bash
-REPO_DIR=~/Tools/Shell
-REPOS=(mono PlaygroundOSS) # ここに定期更新したいリポジトリの一覧を書く
+REPO_DIR=~/Tools/Mac/
+REPOS=(Shell) # 要定期更新资料库列表，用空格分隔
 GIT_OPTS="fetch -a --prune origin"
 RETRY_INT=60
 LOG_FILE=~/Documents/MyLog/.update_git.log
